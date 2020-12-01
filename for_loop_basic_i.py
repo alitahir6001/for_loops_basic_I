@@ -36,7 +36,7 @@ highNum = 20
 mult = 5
 
 def flexCount(lowNum, highNum, mult):
-    for i in range(lowNum, highNum):
+    for i in range(lowNum, highNum + 1):
         if i % mult == 0:
             print (i)
 flexCount(lowNum, highNum, mult)  # call the function like you would in js
